@@ -10,7 +10,7 @@ local Window = OrionLib:MakeWindow({Name = "Omega Hub | Pet Simulator 99", HideP
 local PremiumTab = Window:MakeTab({
     Name = "Premium",
     Icon = "rbxassetid://4483345998",
-    PremiumOnly = true
+    PremiumOnly = false
  })
 
  local MiniGamesTab = Window:MakeTab({
