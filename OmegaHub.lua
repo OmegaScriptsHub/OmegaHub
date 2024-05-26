@@ -1,6 +1,6 @@
 
 -- Booting The Library
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/nerdifly/Custom-Orion/main/source.lua')))()
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/OmegaScriptsHub/HubStuff/main/Remotes.lua')))()
 
 -- creating window
 local Window = OrionLib:MakeWindow({Name = "Omega Hub | Pet Simulator 99", HidePremium = true, IntroText = "Omega Hub", SaveConfig = true, ConfigFolder = "Omega Hub"})
