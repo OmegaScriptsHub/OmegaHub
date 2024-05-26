@@ -122,7 +122,7 @@ PremiumTab:AddButton({
             'SyrexHubv2-2356jdeIIHS'
         }
         
-        getgenv().validKey = true
+        getgenv().validKey = false
         
         -- anti afk
         
