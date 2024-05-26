@@ -122,7 +122,7 @@ PremiumTab:AddButton({
             'SyrexHubv2-2356jdeIIHS'
         }
         
-        getgenv().validKey = false
+        getgenv().validKey = true
         
         -- anti afk
         
@@ -138,9 +138,9 @@ PremiumTab:AddButton({
         getgenv().MessageBox = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/NotificationGUI/main/source.lua"))()
         
         if getgenv().validKey then
-            getgenv().MessageBox.Show({MessageBoxButtons = "OK", Description = "Your Key Was Valid!", Text = "Key System v1 "})
+            getgenv().MessageBox.Show({MessageBoxButtons = "OK", Description = "Your Key Was Valid!", Text = "Omega Security"})
         else
-            getgenv().MessageBox.Show({MessageBoxButtons = "OK", Description = "Your Key Was Invalid!", Text = "Key System v1"})
+            getgenv().MessageBox.Show({MessageBoxButtons = "OK", Description = "Your Key Was Invalid!", Text = "Omega Security"})
         return
         end
 
