@@ -2282,7 +2282,7 @@ ShopTab:AddButton({
 
 
 miscTab:AddButton({
-	Name = "anti mail stealer",
+	Name = "Anti Mail Stealer",
 	Callback = function()
         repeat task.wait() until game:IsLoaded()
 
@@ -2301,6 +2301,13 @@ miscTab:AddButton({
             end
             return oldNamecall(self, ...)
         end))
+  	end    
+})
+
+miscTab:AddToggle({
+	Name = "Auto Stairway To Heaven",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/fissurectomy/woah/main/ps99_stairway.lua"))()
   	end    
 })
 
