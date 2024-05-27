@@ -2304,7 +2304,7 @@ miscTab:AddButton({
   	end    
 })
 
-miscTab:AddToggle({
+miscTab:AddButton({
 	Name = "Auto Stairway To Heaven",
 	Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/fissurectomy/woah/main/ps99_stairway.lua"))()
